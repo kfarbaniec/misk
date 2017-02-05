@@ -62,13 +62,13 @@ zoh = zeros(1,4*length(sens_out));
 
 % 4 times higher output frequency
 
-    for m = 1 : 1 : length(sens_out)
+    for m = 1 : 1 : length(zoh)
         zoh(m) = sens_out(ceil(m/4));
     end
 
 
 
-figure, plot([1:length(zoh)], zoh)
+figure, plot([1:length(zoh)], zoh), title('Simulation of ZOH conversion')
 
 out_spec = fft(sens_out);
 figure
@@ -85,7 +85,7 @@ plot([1:length(out_spec)/2], out_spec(1:length(out_spec)/2) )
 axis tight
 ylabel('Magnitude')
 xlabel('Frequency [Hz]')
-title('FFT of sample data')
+title('FFT of "ZOH"')
 
 
 
