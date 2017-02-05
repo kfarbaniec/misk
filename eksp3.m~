@@ -57,16 +57,22 @@ title('FFT of sample data')
 
 
 
-%% simulate DAC conversion - ZOH
+%% simulate DAC conversion - ZOH -> spectrum.
 zoh = zeros(1,4*length(sens_out));
 
-% 4 times higher output frequency
 
-    for m = 1 : 1 : length(sens_out)
-        zoh(m) = sens_out(ceil(m/4));
+    for k = 1 : length(sens_out)
+        for m = 1 : 4
+    zoh(k +)
+    
+        end
     end
 
 
+zoh(1:4:length(sens_out)) = 1;
+%zoh(2:4:length(sens_out)) = sens_out;
+%zoh(3:4:length(sens_out)) = sens_out;
+%zoh(4:4:length(sens_out)) = sens_out;
 
 figure, plot([1:length(zoh)], zoh)
 
@@ -86,6 +92,4 @@ axis tight
 ylabel('Magnitude')
 xlabel('Frequency [Hz]')
 title('FFT of sample data')
-
-
 

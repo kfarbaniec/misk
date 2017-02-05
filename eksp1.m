@@ -53,8 +53,9 @@ zlabel('Min Torque in [N*mm]')
 view(0,90)
 
 subplot(1,2,2)
-surf(R,mu,X)
-shading('interp')
+surf(R(1:10:length(R)),mu(1:10:length(mu)),X(1:10:length(R),1:10:length(mu)))
+colormap hsv
+alpha(.4)
 xlabel('Radius in [mm]');
 ylabel('friction coef');
 zlabel('Min Torque in [N*mm]')

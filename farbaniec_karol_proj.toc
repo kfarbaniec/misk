@@ -1,7 +1,7 @@
-\contentsline {section}{\numberline {1}Introduction - problem description}{2}{section.1}
-\contentsline {section}{\numberline {2}Solution of a problem}{3}{section.2}
-\contentsline {section}{\numberline {3}Description of experiments}{7}{section.3}
-\contentsline {section}{\numberline {4}Results}{7}{section.4}
-\contentsline {section}{\numberline {5}Conclusions}{7}{section.5}
-\contentsline {section}{\numberline {6}Appendix}{7}{section.6}
-\contentsline {section}{\numberline {7}Bibliography}{8}{section.7}
+\contentsline {section}{\numberline {1}Introduction - problem description}{3}{section.1}
+\contentsline {section}{\numberline {2}Solution of a problem}{4}{section.2}
+\contentsline {section}{\numberline {3}Description of experiments}{9}{section.3}
+\contentsline {section}{\numberline {4}Results}{9}{section.4}
+\contentsline {section}{\numberline {5}Conclusions}{12}{section.5}
+\contentsline {section}{\numberline {6}Appendix}{12}{section.6}
+\contentsline {section}{\numberline {7}Bibliography}{14}{section.7}
